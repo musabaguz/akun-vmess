@@ -1,5 +1,4 @@
 proxies:
-proxies:
   - name: realssh-hjdsg
     server: fastworldpay.com
     port: 443
