@@ -1,0 +1,70 @@
+payload:
+
+  # > INSTAGRAM
+  - DOMAIN-KEYWORD,cdninstagram
+  - DOMAIN-KEYWORD,instagram
+
+  # > FACEBOOK
+  - DOMAIN-KEYWORD,messenger
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fb
+  - DOMAIN-KEYWORD,fbaddins
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,fbsbx
+  - DOMAIN-KEYWORD,fbworkmail
+  - DOMAIN-KEYWORD,facebookmail
+  - DOMAIN-KEYWORD,m.me
+  - DOMAIN-KEYWORD,oculus
+  - DOMAIN-KEYWORD,oculuscdn
+  - DOMAIN-KEYWORD,rocksdb
+  
+  # > LINE
+  - DOMAIN-KEYWORD,lin
+  - DOMAIN-KEYWORD,line
+  - DOMAIN-KEYWORD,line-apps
+  - DOMAIN-KEYWORD,line-cdn
+  - DOMAIN-KEYWORD,line-scdn
+  - DOMAIN-KEYWORD,nhncorp
+  - DOMAIN-KEYWORD,naver.jp
+  
+  # > TELEGRAM
+  - DOMAIN-KEYWORD,telegra
+  - DOMAIN-KEYWORD,telegram
+  - DOMAIN-KEYWORD,t.me
+  - DOMAIN-KEYWORD,tdesktop
+  - DOMAIN-KEYWORD,telesco
+  - IP-CIDR,91.108.4.0/22
+  - IP-CIDR,91.108.8.0/22
+  - IP-CIDR,91.108.12.0/22
+  - IP-CIDR,91.108.16.0/22
+  - IP-CIDR,91.108.20.0/22
+  - IP-CIDR,91.108.56.0/22
+  - IP-CIDR,149.154.160.0/20
+  
+  # > TWITTER
+  - DOMAIN-KEYWORD,pscp
+  - DOMAIN-KEYWORD,periscope
+  - DOMAIN-KEYWORD,t.co
+  - DOMAIN-KEYWORD,twimg
+  - DOMAIN-KEYWORD,twimg
+  - DOMAIN-KEYWORD,twitpic
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,vine
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,twttr
+  - DOMAIN-KEYWORD,twttr
+  - DOMAIN-KEYWORD,twitter
+  
+  # > SNACKVIDEO
+  - DOMAIN-KEYWORD,snackvideo
+  
+  # > TikTok
+  - DOMAIN-KEYWORD,byteoversea
+  - DOMAIN-KEYWORD,ibytedtos
+  - DOMAIN-KEYWORD,ipstatp
+  - DOMAIN-KEYWORD,muscdn
+  - DOMAIN-KEYWORD,musical
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn
+  - DOMAIN-KEYWORD,tiktokv
+  - DOMAIN-KEYWORD,-tiktokcdn-com

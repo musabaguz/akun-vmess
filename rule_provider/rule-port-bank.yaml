@@ -1,0 +1,33 @@
+payload:
+
+  # > BRI
+  - DOMAIN-KEYWORD,bri
+  
+  # > BNI
+  - DOMAIN-KEYWORD,bni
+
+  # > BCA
+  - DOMAIN-KEYWORD,bca
+  - DOMAIN-KEYWORD,klikbca
+
+  # > MANDIRI
+  - DOMAIN-KEYWORD,mandiri
+
+  # > LINKAJA
+  - DOMAIN-KEYWORD,linkaja
+
+  # > PAYPAL
+  - DOMAIN-KEYWORD,paypal
+
+  # > DANA
+  - DOMAIN-KEYWORD,dana
+  
+  # > GOPAY
+  - DOMAIN-KEYWORD,gopay
+  
+  # > INDODAX
+  - DOMAIN-KEYWORD,indodax
+
+  # > BITCOIN
+  - DOMAIN-KEYWORD,bitcoin
+  - DOMAIN-KEYWORD,etherium

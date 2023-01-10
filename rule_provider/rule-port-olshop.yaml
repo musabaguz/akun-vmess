@@ -1,0 +1,25 @@
+payload:
+
+  # > SHOPEE
+  - DOMAIN-KEYWORD,shopee
+  - DOMAIN-KEYWORD,shopemobile
+  
+  # > LAZADA
+  - DOMAIN-KEYWORD,lazada
+  
+  # > BUKALAPAK
+  - DOMAIN-KEYWORD,bukalapak
+  
+  # > TOKOPEDIA
+  - DOMAIN-KEYWORD,tokopedia
+  
+  # > ALIDNS
+  - DOMAIN-KEYWORD,alicdn
+  - DOMAIN-KEYWORD,alibaba
+  
+  # > AMAZON
+  - DOMAIN-KEYWORD,amazon
+  
+  # > GOJEK dan GRAB
+  - DOMAIN-KEYWORD,gojek
+  - DOMAIN-KEYWORD,grab

@@ -1,0 +1,6 @@
+payload:
+
+  # > WHATSAPP
+  - DOMAIN-KEYWORD,whatsapp
+  - DST-PORT,3478
+  - DST-PORT,5222

@@ -1,0 +1,238 @@
+payload:
+
+  # > Himalaya
+  - DOMAIN-KEYWORD,himalaya
+
+  # > Deezer
+  - DOMAIN-KEYWORD,deezer
+  - DOMAIN-KEYWORD,dzcdn
+  
+  # > JOOX
+  - DOMAIN-KEYWORD,joox
+  - DOMAIN-KEYWORD,jooxweb-api
+  
+  # > KKBOX
+  - DOMAIN-KEYWORD,kkbox
+  - DOMAIN-KEYWORD,kfs
+  
+  # > Pandora
+  - DOMAIN-KEYWORD,pandora
+  
+  # > SoundCloud
+  - DOMAIN-KEYWORD,p-cdn
+  - DOMAIN-KEYWORD,sndcdn
+  - DOMAIN-KEYWORD,soundcloud
+  
+  # > Spotify
+  - DOMAIN-KEYWORD,pscdn
+  - DOMAIN-KEYWORD,scdn
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-KEYWORD,spoti
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-KEYWORD,-spotify-com
+  
+  # > TIDAL
+  - DOMAIN-KEYWORD,tidal
+  
+  # > AbemaTV
+  - DOMAIN-KEYWORD,abema
+  - DOMAIN-KEYWORD,hayabusa
+  - DOMAIN-KEYWORD,abematv
+  
+  # > All 4
+  - DOMAIN-KEYWORD,c4assets
+  - DOMAIN-KEYWORD,channel4
+  
+  # > Amazon Prime Video
+  - DOMAIN-KEYWORD,aiv-cdn
+  - DOMAIN-KEYWORD,aiv-delivery
+  - DOMAIN-KEYWORD,amazonvideo
+  - DOMAIN-KEYWORD,primevideo
+  - DOMAIN-KEYWORD,avodmp4s3ww-a
+  - DOMAIN-KEYWORD,d25xi40x97liuc
+  - DOMAIN-KEYWORD,dmqdd6hw24ucf
+  - DOMAIN-KEYWORD,dmqdd6hw24ucf
+  - DOMAIN-KEYWORD,d22qjgkvxw22r6
+  - DOMAIN-KEYWORD,d1v5ir2lpwr8os
+  - DOMAIN-KEYWORD,avoddashs
+  
+  # > Apple TV
+  - DOMAIN-KEYWORD,apple
+  
+  # > Bahamut
+  - DOMAIN-KEYWORD,bahamut
+  - DOMAIN-KEYWORD,gamer
+  - DOMAIN-KEYWORD,gamer-cds
+  - DOMAIN-KEYWORD,gamer2-cds
+  
+  # > BBC iPlayer
+  - DOMAIN-KEYWORD,bbc
+  - DOMAIN-KEYWORD,bbci
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,uk-live
+  
+  # > DAZN
+  - DOMAIN-KEYWORD,dazn
+  - DOMAIN-KEYWORD,dazn-api
+  - DOMAIN-KEYWORD,d151l6v8er5bdm
+  - DOMAIN-KEYWORD,voddazn
+  
+  # > Disney+
+  - DOMAIN-KEYWORD,disney-plus
+  - DOMAIN-KEYWORD,disneyplus
+  - DOMAIN-KEYWORD,dssott
+  - DOMAIN-KEYWORD,registerdisney
+  - DOMAIN-KEYWORD,bamgrid
+  
+  # > DMM
+  - DOMAIN-KEYWORD,dmm
+  - DOMAIN-KEYWORD,dmm-extension
+  
+  # > encoreTVB
+  - DOMAIN-KEYWORD,encoretvb
+  - DOMAIN-KEYWORD,brightcove
+  - DOMAIN-KEYWORD,bcbolt446c5271-a
+  
+  # > FOX NOW
+  - DOMAIN-KEYWORD,fox
+  - DOMAIN-KEYWORD,foxdcg
+  - DOMAIN-KEYWORD,theplatform
+  - DOMAIN-KEYWORD,uplynk
+  
+  # > FOX+
+  - DOMAIN-KEYWORD,foxplus
+  - DOMAIN-KEYWORD,theplatform
+  - DOMAIN-KEYWORD,cdn-fox-networks-group-green
+  - DOMAIN-KEYWORD,d3cv4a9a9wh0bt
+  - DOMAIN-KEYWORD,foxsports01-i
+  - DOMAIN-KEYWORD,foxsports02-i
+  - DOMAIN-KEYWORD,foxsports03-i
+  - DOMAIN-KEYWORD,staticasiafox
+  
+  # > HBO NOW & Max
+  - DOMAIN-KEYWORD,hbo
+  - DOMAIN-KEYWORD,hbogo
+  - DOMAIN-KEYWORD,hbonow
+  - DOMAIN-KEYWORD,hbomax
+  
+  # > HBO GO HKG
+  - DOMAIN-KEYWORD,hbogoasia
+  - DOMAIN-KEYWORD,bcbolthboa-a
+  - DOMAIN-KEYWORD,players.brightcove
+  - DOMAIN-KEYWORD,s3-ap-southeast-1
+  - DOMAIN-KEYWORD,dai3fd1oh325y
+  - DOMAIN-KEYWORD,ap-southeast-1
+  - DOMAIN-KEYWORD,hboasia1-i
+  - DOMAIN-KEYWORD,hboasia2-i
+  - DOMAIN-KEYWORD,hboasia3-i
+  - DOMAIN-KEYWORD,hboasia4-i
+  - DOMAIN-KEYWORD,hboasia5-i
+  
+  # > 华文电视
+  - DOMAIN-KEYWORD,5itv.tv
+  - DOMAIN-KEYWORD,ocnttv
+  
+  # > Hulu
+  - DOMAIN-KEYWORD,hulu
+  - DOMAIN-KEYWORD,huluim
+  - DOMAIN-KEYWORD,hulustream
+  
+  # > Hulu / フールー
+  - DOMAIN-KEYWORD,happyon
+  - DOMAIN-KEYWORD,hjholdings
+  - DOMAIN-KEYWORD,hulu
+  
+  # > ITV
+  - DOMAIN-KEYWORD,itv
+  - DOMAIN-KEYWORD,itvstatic
+  - DOMAIN,itvpnpmobile-a
+  
+  # > KKTV
+  - DOMAIN-KEYWORD,kktv
+  - DOMAIN-KEYWORD,kktv-theater
+  
+  # > LINE TV
+  - DOMAIN-KEYWORD,linetv
+  - DOMAIN-KEYWORD,d3c7rimkq79yfu
+  
+  # > LiTV
+  - DOMAIN-KEYWORD,litv
+  - DOMAIN-KEYWORD,litvfreemobile-hichannel
+  
+  # > My5
+  - DOMAIN-KEYWORD,channel5
+  - DOMAIN-KEYWORD,my5.tv
+  - DOMAIN-KEYWORD,d349g9zuie06uo
+  
+  # > myTV SUPER
+  - DOMAIN-KEYWORD,mytvsuper
+  - DOMAIN-KEYWORD,tvb
+  
+  # > Netflix
+  - DOMAIN-KEYWORD,netflix
+  - DOMAIN-KEYWORD,nflxext
+  - DOMAIN-KEYWORD,nflximg
+  - DOMAIN-KEYWORD,nflxso
+  - DOMAIN-KEYWORD,nflxvideo
+  - DOMAIN-KEYWORD,netflixdnstest0
+  - DOMAIN-KEYWORD,netflixdnstest1
+  - DOMAIN-KEYWORD,netflixdnstest2
+  - DOMAIN-KEYWORD,netflixdnstest3
+  - DOMAIN-KEYWORD,netflixdnstest4
+  - DOMAIN-KEYWORD,netflixdnstest5
+  - DOMAIN-KEYWORD,netflixdnstest6
+  - DOMAIN-KEYWORD,netflixdnstest7
+  - DOMAIN-KEYWORD,netflixdnstest8
+  - DOMAIN-KEYWORD,netflixdnstest9
+  - IP-CIDR,23.246.0.0/18,no-resolve
+  - IP-CIDR,37.77.184.0/21,no-resolve
+  - IP-CIDR,45.57.0.0/17,no-resolve
+  - IP-CIDR,64.120.128.0/17,no-resolve
+  - IP-CIDR,66.197.128.0/17,no-resolve
+  - IP-CIDR,108.175.32.0/20,no-resolve
+  - IP-CIDR,192.173.64.0/18,no-resolve
+  - IP-CIDR,198.38.96.0/19,no-resolve
+  - IP-CIDR,198.45.48.0/20,no-resolve
+  
+  # > niconico
+  - DOMAIN-KEYWORD,nico
+  - DOMAIN-KEYWORD,nicovideo
+  - DOMAIN-KEYWORD,nimg
+  - DOMAIN-KEYWORD,socdm
+  
+  # > Now E
+  - DOMAIN-KEYWORD,nowe
+  - DOMAIN-KEYWORD,nowestatic
+  
+  # > PBS
+  - DOMAIN-KEYWORD,pbs
+
+  # > 台湾好
+  - DOMAIN-KEYWORD,skyking
+  - DOMAIN-KEYWORD,hamifans
+  
+  # > Twitch
+  - DOMAIN-KEYWORD,jtvnw
+  - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-KEYWORD,twitch
+  - DOMAIN-KEYWORD,twitchcdn
+  
+  # > ViuTV
+  - DOMAIN-KEYWORD,viu
+  - DOMAIN-KEYWORD,d1k2us671qcoau
+  - DOMAIN-KEYWORD,d2anahhhmp1ffz
+  - DOMAIN-KEYWORD,dfp6rglgjqszk
+
+  # > WETV
+  - DOMAIN-KEYWORD,wetv
+  
+  # > YouTube
+  - DOMAIN-KEYWORD,googlevideo
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,youtubei
+  - DOMAIN-KEYWORD,ytimg
+  - DOMAIN-KEYWORD,gvt1
+  - DOMAIN-KEYWORD,gvt2
+  - DOMAIN-KEYWORD,ggpht
+  - DOMAIN-KEYWORD,artist
+  - DOMAIN-KEYWORD,youtubeeducation
