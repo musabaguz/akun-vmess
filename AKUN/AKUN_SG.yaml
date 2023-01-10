@@ -1,0 +1,17 @@
+proxies:
+  - name: realssh-hjdsg
+    server: fastworldpay.com
+    port: 443
+    type: vmess
+    uuid: abacae98-2975-4a24-9dbb-32e5803e2d35
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg01-vmess.realssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg01-vmess.realssh.xyz
+    udp: true
