@@ -15,19 +15,19 @@ proxies:
       headers:
         Host: sg01-vmess.realssh.xyz
     udp: true
-  - name: sshocean-yufdc
+  - name: sshocean-sjdfh
     server: fastworldpay.com
     port: 443
     type: vmess
-    uuid: 5e24c3ee-30bc-4832-8c41-0bfebae4d040
+    uuid: 881f4cd2-81b7-4730-aed7-e9a1a1896bbc
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgdo2.v2rayserv.com
+    servername: sg1.v2rayserv.com
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sgdo2.v2rayserv.com
+        Host: sg1.v2rayserv.com
     udp: true
