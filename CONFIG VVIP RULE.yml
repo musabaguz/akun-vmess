@@ -96,19 +96,19 @@ dns:
   - 1.1.1.1
   - 1.0.0.1
 proxy-providers:
-  AKUN_SG:
+  AKUN#SG:
     type: http
-    path: "AKUN/AKUN_SG.yaml"
-    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/AKUN_SG.yaml?token=GHSAT0AAAAAAB5I24W23O3TCV6XBA4IGGOYY544LWA
+    path: "AKUN/AKUN#SG.yaml"
+    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/AKUN/AKUN%23SG.yaml
     interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 99
-  AKUN_ID:
+  AKUN#ID:
     type: http
-    path: "AKUN/AKUN_ID.yaml"
-    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/AKUN_ID.yaml?token=GHSAT0AAAAAAB5I24W2MWLI5CDMNAH5VPKQY544KNQ
+    path: "AKUN/AKUN#ID.yaml"
+    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/AKUN/AKUN%23ID.yaml
     interval: 3600
     health-check:
       enable: true
@@ -119,8 +119,8 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
   - Streaming 🎬
   - Sosmed 🔔
   - Online Shop 🛒
@@ -131,19 +131,19 @@ proxy-groups:
   - DIRECT
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
-- name: AKUN_SG
+- name: AKUN#SG
   type: select
   disable-udp: false
   use:
-  - AKUN_SG
+  - AKUN#SG
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
 
-- name: AKUN_ID
+- name: AKUN#ID
   type: select
   disable-udp: false
   use:
-  - AKUN_ID
+  - AKUN#ID
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
 
@@ -151,12 +151,12 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
-  - Fallback-AKUN_SG
-  - Fallback-AKUN_ID
-  - Ping-AKUN_SG
-  - Ping-AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
+  - Fallback-AKUN#SG
+  - Fallback-AKUN#ID
+  - Ping-AKUN#SG
+  - Ping-AKUN#ID
   - Loadbalance
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
@@ -165,12 +165,12 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
-  - Fallback-AKUN_SG
-  - Fallback-AKUN_ID
-  - Ping-AKUN_SG
-  - Ping-AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
+  - Fallback-AKUN#SG
+  - Fallback-AKUN#ID
+  - Ping-AKUN#SG
+  - Ping-AKUN#ID
   - Loadbalance
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
@@ -179,12 +179,12 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
-  - Fallback-AKUN_SG
-  - Fallback-AKUN_ID
-  - Ping-AKUN_SG
-  - Ping-AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
+  - Fallback-AKUN#SG
+  - Fallback-AKUN#ID
+  - Ping-AKUN#SG
+  - Ping-AKUN#ID
   - Loadbalance
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
@@ -193,12 +193,12 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
-  - Fallback-AKUN_SG
-  - Fallback-AKUN_ID
-  - Ping-AKUN_SG
-  - Ping-AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
+  - Fallback-AKUN#SG
+  - Fallback-AKUN#ID
+  - Ping-AKUN#SG
+  - Ping-AKUN#ID
   - Loadbalance
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
@@ -207,12 +207,12 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
-  - Fallback-AKUN_SG
-  - Fallback-AKUN_ID
-  - Ping-AKUN_SG
-  - Ping-AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
+  - Fallback-AKUN#SG
+  - Fallback-AKUN#ID
+  - Ping-AKUN#SG
+  - Ping-AKUN#ID
   - Loadbalance
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
@@ -221,40 +221,40 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - AKUN_SG
-  - AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
   - DIRECT
   url: 'http://cp.cloudflare.com/generate_204'
   interval: '300'
 #------------++-----++--ETC--++----++-------------#
-- name: Fallback-AKUN_SG
+- name: Fallback-AKUN#SG
   type: fallback
   disable-udp: false
   use:
-  - AKUN_SG
+  - AKUN#SG
   url: http://www.gstatic.com/generate_204
   interval: '99'
-- name: Fallback-AKUN_ID
+- name: Fallback-AKUN#ID
   type: fallback
   disable-udp: false
   use:
-  - AKUN_ID
+  - AKUN#ID
   url: http://www.gstatic.com/generate_204
   interval: '99'
 #-------------------------------------------------#
-- name: Ping-AKUN_SG
+- name: Ping-AKUN#SG
   type: url-test
   disable-udp: false
   use:
-  - AKUN_SG
+  - AKUN#SG
   url: http://www.gstatic.com/generate_204
   interval: '99'
   tolerance: '99'
-- name: Ping-AKUN_ID
+- name: Ping-AKUN#ID
   type: url-test
   disable-udp: false
   use:
-  - AKUN_ID
+  - AKUN#ID
   url: http://www.gstatic.com/generate_204
   interval: '99'
   tolerance: '99'
@@ -264,8 +264,8 @@ proxy-groups:
   strategy: round-robin
   disable-udp: false
   use:
-  - AKUN_SG
-  - AKUN_ID
+  - AKUN#SG
+  - AKUN#ID
   url: http://www.gstatic.com/generate_204
   interval: '99'
 #-------------------------------------------------#
@@ -274,36 +274,43 @@ rule-providers:
     type: file
     behavior: classical
     path: "rule_provider/rule-port-game.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule-port-game.yaml
     interval: 3600
   Sosmedmaster:
     type: file
     behavior: classical
     path: "rule_provider/rule-port-sosmed.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule-port-sosmed.yaml
     interval: 3600
   Streammaster:
     type: file
     behavior: classical
     path: "rule_provider/rule-port-stream.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule-port-stream.yaml
     interval: 3600
   Olshopmaster:
     type: file
     behavior: classical
     path: "rule_provider/rule-port-olshop.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule-port-olshop.yaml
     interval: 3600
   Bankmaster:
     type: file
     behavior: classical
     path: "rule_provider/rule-port-bank.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule-port-bank.yaml
     interval: 3600
   Whatsappmaster:
     type: file
     behavior: classical
     path: "rule_provider/rule-port-whatsapp.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule-port-whatsapp.yaml
     interval: 3600
   rule_BlockAds:
     type: http
     behavior: classical
     path: "rule_provider/rule_BlockAds.yaml"
+    url : https://raw.githubusercontent.com/musabaguz/akun-vmess/main/rule_provider/rule_BlockAds.yaml
     interval: 86400
 script:
   code: |
