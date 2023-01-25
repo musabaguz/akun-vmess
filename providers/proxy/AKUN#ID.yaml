@@ -1,0 +1,15 @@
+proxies:
+  - name: id2
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 1b61aab5-a0a7-4c57-a33c-d5fd88a296b5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2.duriankupas.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true
