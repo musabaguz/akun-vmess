@@ -98,8 +98,8 @@ dns:
 proxy-providers:
   AKUN#SG:
     type: http
-    path: "AKUN/AKUN#SG.yaml"
-    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/AKUN/AKUN%23SG.yaml
+    path: "providers/proxy/AKUN#SG.yaml"
+    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/providers/proxy/AKUN%23SG.yaml
     interval: 3600
     health-check:
       enable: true
@@ -107,8 +107,8 @@ proxy-providers:
       interval: 99
   AKUN#ID:
     type: http
-    path: "AKUN/AKUN#ID.yaml"
-    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/AKUN/AKUN%23ID.yaml
+    path: "providers/proxy/AKUN#ID.yaml"
+    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/providers/proxy/AKUN%23ID.yaml
     interval: 3600
     health-check:
       enable: true
