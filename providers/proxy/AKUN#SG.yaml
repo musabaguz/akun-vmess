@@ -1,0 +1,26 @@
+proxies:
+  - name: akhifa
+    server: cdn.onlymega.com
+    port: 443
+    type: vmess
+    uuid: 31e27519-f56a-4b23-99d4-813e3b1ed555
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rere05.potatonc.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess
+    udp: true
+  - name: test3day
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: 6fe62e12-64f0-46f6-8cdf-87a04961d267
+    skip-cert-verify: true
+    sni: gcp.lunoxx.me
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
