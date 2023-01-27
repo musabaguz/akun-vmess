@@ -1,6 +1,6 @@
 proxies:
   - name: akhifa
-    server: cdn.onlymega.com
+    server: 104.26.5.10
     port: 443
     type: vmess
     uuid: 31e27519-f56a-4b23-99d4-813e3b1ed555
@@ -14,7 +14,7 @@ proxies:
       grpc-service-name: vmess
     udp: true
   - name: test3day
-    server: cdn.onlymega.com
+    server: 104.26.5.10
     port: 443
     type: trojan
     password: 6fe62e12-64f0-46f6-8cdf-87a04961d267
