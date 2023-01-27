@@ -1,6 +1,6 @@
 proxies:
   - name: id2
-    server: cdn.onlymega.com
+    server: 104.26.5.10
     port: 443
     type: vmess
     uuid: 1b61aab5-a0a7-4c57-a33c-d5fd88a296b5
