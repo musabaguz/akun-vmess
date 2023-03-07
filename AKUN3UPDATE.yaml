@@ -50,3 +50,14 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: US Trojan-gRPC(2023-03-14)
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: d113e5d0-bcc6-11ed-8a1a-1239d0255272
+    skip-cert-verify: true
+    sni: us3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
