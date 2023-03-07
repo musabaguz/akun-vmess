@@ -61,3 +61,19 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: R443:Vmess Singapore HE-1 2023-03-14
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 4ccd30d0-bcc7-11ed-b137-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /vbinkht5
+      headers:
+        Host: sg-1.0rd.net
+    udp: true
