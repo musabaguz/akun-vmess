@@ -50,3 +50,19 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: dynamic-sg1b.obfs.xyz
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 5ece9d0f-f2b4-45ab-bc5d-f1679358d7a2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dynamic-sg1b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg1b.obfs.xyz
+    udp: true
