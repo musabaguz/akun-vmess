@@ -82,3 +82,19 @@ proxies:
       headers:
         Host: sg01-vmess.realssh.xyz
     udp: true
+  - name: sshocean-kjhdsyt
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: c912b99f-fdd9-4c7c-a908-0844ab50ee9c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2.v2rayserv.com
+    udp: true
