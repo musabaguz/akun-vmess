@@ -50,7 +50,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
-   - name: beacon.liveon.id
+  - name: beacon.liveon.id
     server: beacon.liveon.id
     port: 443
     type: trojan
