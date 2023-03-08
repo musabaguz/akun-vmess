@@ -66,7 +66,7 @@ proxies:
       headers:
         Host: sg7-ray.ipservers.xyz
     udp: true
-  - name: sshocean-sdkjguy
+  - name: SG1-MLBI-sshocean-sdkjguy
     server: beacon.liveon.id
     port: 443
     type: vmess
@@ -82,7 +82,7 @@ proxies:
       headers:
         Host: sg1-mlb.v2rayserv.com
     udp: true
-  - name: sshocean-kjhdsyt
+  - name: SG02-sshocean-kjhdsyt
     server: beacon.liveon.id
     port: 443
     type: vmess
@@ -97,4 +97,20 @@ proxies:
       path: /vmess
       headers:
         Host: sg2.v2rayserv.com
+    udp: true
+  - name: ID04-sshocean-jhgkuyf
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: a5f53c51-a013-441a-8c29-aed62e66bedf
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id4.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id4.v2rayserv.com
     udp: true
