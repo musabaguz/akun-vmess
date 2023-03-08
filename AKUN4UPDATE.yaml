@@ -58,3 +58,19 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: R443:Vmess Indonesia Herza Limit 2023-03-16
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 9f0ec5e0-bdd3-11ed-b534-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /wcpis3zd
+      headers:
+        Host: id-1.0rd.net
+    udp: true
