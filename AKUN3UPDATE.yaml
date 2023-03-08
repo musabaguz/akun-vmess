@@ -23,22 +23,6 @@ proxies:
       headers:
         Host: sg-2.test3.net
     udp: true
-  - name: R443:Vmess Singapore Melbi 2023-03-12
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: beb4e7f0-bb1b-11ed-b334-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-4.0rd.net
-    network: ws
-    ws-opts:
-      path: /zgjyuxib
-      headers:
-        Host: sg-4.0rd.net
-    udp: true
   - name: SG Trojan-gRPC(2023-03-12)
     server: beacon.liveon.id
     port: 443
@@ -46,17 +30,6 @@ proxies:
     password: 00154860-bb1c-11ed-8ba8-1239d0255272
     skip-cert-verify: true
     sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
-  - name: US Trojan-gRPC(2023-03-14)
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: d113e5d0-bcc6-11ed-8a1a-1239d0255272
-    skip-cert-verify: true
-    sni: us3.socifiles.com
     network: grpc
     grpc-opts:
       grpc-service-name: trgrpc
