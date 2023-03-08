@@ -130,3 +130,19 @@ proxies:
       headers:
         Host: id8.v2rayserv.com
     udp: true
+  - name: ID05-sshocean-jhguyt
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 082ff4b2-e9a7-482e-9817-6f3f608bb935
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id5.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id5.v2rayserv.com
+    udp: true
