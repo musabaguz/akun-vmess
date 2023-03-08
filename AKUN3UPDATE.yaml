@@ -66,21 +66,21 @@ proxies:
       headers:
         Host: sg7-ray.ipservers.xyz
     udp: true
-  - name: srealssh-kjsdyut 16 Mar 2023
+  - name: sshocean-sdkjguy
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 5b91bdba-7a1b-4a71-b9ba-0a6d5912e495
+    uuid: 232fd3df-3d44-4c02-beab-7e87fab96b66
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg01-vmess.realssh.xyz
+    servername: sg1-mlb.v2rayserv.com
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sg01-vmess.realssh.xyz
+        Host: sg1-mlb.v2rayserv.com
     udp: true
   - name: sshocean-kjhdsyt
     server: beacon.liveon.id
