@@ -50,19 +50,27 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
-  - name: dynamic-sg1b.obfs.xyz
+   - name: beacon.liveon.id
     server: beacon.liveon.id
     port: 443
-    type: vmess
-    uuid: 5ece9d0f-f2b4-45ab-bc5d-f1679358d7a2
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: d6679c50-bd9d-11ed-b1cb-1239d0255272
     skip-cert-verify: true
-    servername: dynamic-sg1b.obfs.xyz
+    sni: id-1.test3.net
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /howdy
       headers:
-        Host: dynamic-sg1b.obfs.xyz
+        Host: id-1.test3.net
+    udp: true
+  - name: SG Trojan-gRPC(2023-03-15)
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: ca930c90-bd9d-11ed-ad7a-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
     udp: true
