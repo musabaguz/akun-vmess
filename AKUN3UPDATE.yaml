@@ -50,3 +50,14 @@ proxies:
       headers:
         Host: sg-1.0rd.net
     udp: true
+  - name: trial22120230309001537
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: e6d8d064-2712-4193-8763-efa911f81de4
+    skip-cert-verify: true
+    sni: id4.zevesh.host
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
