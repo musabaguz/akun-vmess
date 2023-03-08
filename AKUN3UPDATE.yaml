@@ -50,14 +50,19 @@ proxies:
       headers:
         Host: sg-1.0rd.net
     udp: true
-  - name: trial22120230309001537
+  - name: jagoanssh-lkjiuyjgyyt
     server: beacon.liveon.id
     port: 443
-    type: trojan
-    password: e6d8d064-2712-4193-8763-efa911f81de4
+    type: vmess
+    uuid: b80abd1a-ea8b-4bd4-be3b-32ae0b79f623
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id4.zevesh.host
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
+    servername: sg7-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg7-ray.ipservers.xyz
     udp: true
