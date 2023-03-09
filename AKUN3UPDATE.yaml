@@ -66,22 +66,6 @@ proxies:
       headers:
         Host: sg7-ray.ipservers.xyz
     udp: true
-  - name: SG1-MLBI-sshocean-sdkjguy
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 232fd3df-3d44-4c02-beab-7e87fab96b66
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-mlb.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1-mlb.v2rayserv.com
-    udp: true
   - name: SG02-sshocean-kjhdsyt
     server: beacon.liveon.id
     port: 443
@@ -146,51 +130,145 @@ proxies:
       headers:
         Host: id5.v2rayserv.com
     udp: true
-  - name: unlissh.com-sdjfhuit
+  - name: serverssh-skdjdksfhjkuy
     server: beacon.liveon.id
-    port: 8443
+    port: 443
     type: vmess
-    uuid: 71a35f58-76b2-4a57-90b7-e4349ca91ca8
+    uuid: 55c45b20-2ec7-429e-af50-96613c2a7276
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: asg01.unlissh.cfd
-    network: ws
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: asg01.unlissh.cfd
+    servername: sg1grpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
     udp: true
-  - name: unlissh.com-jhsdf
+  - name: sshocean-shdfhyt
     server: beacon.liveon.id
-    port: 8443
+    port: 443
     type: vmess
-    uuid: d078ca8c-ab94-42d3-9f22-8464659ce71f
+    uuid: 41c611a3-657b-43dc-92cb-54abcd3731e6
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: asg02.unlissh.cfd
+    servername: sg1.v2rayserv.com
     network: ws
     ws-opts:
-      path: /vmess/
+      path: /vmess
       headers:
-        Host: asg02.unlissh.cfd
+        Host: sg1.v2rayserv.com
     udp: true
-  - name: unlissh.com-sgytrf
+  - name: sshocean-jsfyutr
     server: beacon.liveon.id
-    port: 8443
+    port: 443
     type: vmess
-    uuid: 9918c8a8-f602-4cca-a130-9b5e1578c737
+    uuid: 2e8822ab-25f5-4da1-a49c-60c4368b6e6f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: asg03.unlissh.cfd
+    servername: sg2.v2rayserv.com
     network: ws
     ws-opts:
-      path: /vmess/
+      path: /vmess
       headers:
-        Host: asg03.unlissh.cfd
+        Host: sg2.v2rayserv.com
+    udp: true
+  - name: sshocean-kjsdfhyt
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 0b0d3410-f40a-417c-8c86-60289f55d768
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg3.v2rayserv.com
+    udp: true
+  - name: sshocean-kjhryu
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 7dbf7dd3-bd3f-4f40-b13e-4ea942c60854
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg4.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg4.v2rayserv.com
+    udp: true
+  - name: sshocean-jftyug
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 125bf036-8f05-4b4d-8622-d76dd352035f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg5.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg5.v2rayserv.com
+    udp: true
+  - name: sshocean-kjsdfhu
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 94b553b0-4a30-48f1-9f54-0fe3eeebd6be
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg6.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg6.v2rayserv.com
+    udp: true
+  - name: sshocean-sdfjkgy
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 1c3aff74-ae95-4e5b-8a50-d889c95afa0f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg7.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg7.v2rayserv.com
+    udp: true
+  - name: sshocean-djkyutjk
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 84fe4f95-fc02-483d-8d97-a6618e5cc143
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg8.v2rayserv.com
     udp: true
