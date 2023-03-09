@@ -86,3 +86,17 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: serverssh-skjfhuity
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 840b54d2-76df-478d-be7e-48c6e48d632d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2grpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
