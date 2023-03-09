@@ -34,22 +34,6 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
-  - name: R443:Vmess Singapore HE-1 2023-03-14
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 4ccd30d0-bcc7-11ed-b137-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /vbinkht5
-      headers:
-        Host: sg-1.0rd.net
-    udp: true
   - name: jagoanssh-lkjiuyjgyyt
     server: beacon.liveon.id
     port: 443
@@ -66,70 +50,6 @@ proxies:
       headers:
         Host: sg7-ray.ipservers.xyz
     udp: true
-  - name: SG02-sshocean-kjhdsyt
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: c912b99f-fdd9-4c7c-a908-0844ab50ee9c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2.v2rayserv.com
-    udp: true
-  - name: ID04-sshocean-jhgkuyf
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: a5f53c51-a013-441a-8c29-aed62e66bedf
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id4.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id4.v2rayserv.com
-    udp: true
-  - name: ID08-sshocean-jkdfh
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 75287163-eaa7-4dd4-b2bf-26d6d0d80694
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id8.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id8.v2rayserv.com
-    udp: true
-  - name: ID05-sshocean-jhguyt
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 082ff4b2-e9a7-482e-9817-6f3f608bb935
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id5.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id5.v2rayserv.com
-    udp: true
   - name: serverssh-skdjdksfhjkuy
     server: beacon.liveon.id
     port: 443
@@ -144,131 +64,25 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-  - name: sshocean-shdfhyt
+  - name: SG1 Trojan-gRPC(2023-03-16)
     server: beacon.liveon.id
     port: 443
-    type: vmess
-    uuid: 41c611a3-657b-43dc-92cb-54abcd3731e6
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: b5eabfe0-be6d-11ed-ac4b-1239d0255272
     skip-cert-verify: true
-    servername: sg1.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1.v2rayserv.com
+    sni: sg1.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
     udp: true
-  - name: sshocean-jsfyutr
+  - name: SG3 Trojan-gRPC(2023-03-16)
     server: beacon.liveon.id
     port: 443
-    type: vmess
-    uuid: 2e8822ab-25f5-4da1-a49c-60c4368b6e6f
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: cb0c0750-be6d-11ed-aec4-1239d0255272
     skip-cert-verify: true
-    servername: sg2.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2.v2rayserv.com
-    udp: true
-  - name: sshocean-kjsdfhyt
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 0b0d3410-f40a-417c-8c86-60289f55d768
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg3.v2rayserv.com
-    udp: true
-  - name: sshocean-kjhryu
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 7dbf7dd3-bd3f-4f40-b13e-4ea942c60854
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg4.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg4.v2rayserv.com
-    udp: true
-  - name: sshocean-jftyug
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 125bf036-8f05-4b4d-8622-d76dd352035f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg5.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg5.v2rayserv.com
-    udp: true
-  - name: sshocean-kjsdfhu
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 94b553b0-4a30-48f1-9f54-0fe3eeebd6be
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg6.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg6.v2rayserv.com
-    udp: true
-  - name: sshocean-sdfjkgy
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 1c3aff74-ae95-4e5b-8a50-d889c95afa0f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg7.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg7.v2rayserv.com
-    udp: true
-  - name: sshocean-djkyutjk
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 84fe4f95-fc02-483d-8d97-a6618e5cc143
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg8.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg8.v2rayserv.com
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
     udp: true
