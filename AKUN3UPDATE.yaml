@@ -146,3 +146,51 @@ proxies:
       headers:
         Host: id5.v2rayserv.com
     udp: true
+  - name: unlissh.com-sdjfhuit
+    server: beacon.liveon.id
+    port: 8443
+    type: vmess
+    uuid: 71a35f58-76b2-4a57-90b7-e4349ca91ca8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: asg01.unlissh.cfd
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: asg01.unlissh.cfd
+    udp: true
+  - name: unlissh.com-jhsdf
+    server: beacon.liveon.id
+    port: 8443
+    type: vmess
+    uuid: d078ca8c-ab94-42d3-9f22-8464659ce71f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: asg02.unlissh.cfd
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: asg02.unlissh.cfd
+    udp: true
+  - name: unlissh.com-sgytrf
+    server: beacon.liveon.id
+    port: 8443
+    type: vmess
+    uuid: 9918c8a8-f602-4cca-a130-9b5e1578c737
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: asg03.unlissh.cfd
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: asg03.unlissh.cfd
+    udp: true
