@@ -89,17 +89,3 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-  - name: trial1662
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: d09be75c-83b7-4a5f-b885-03b59167eb11
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: free.aiya.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess
-    udp: true
