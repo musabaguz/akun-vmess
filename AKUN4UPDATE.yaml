@@ -61,3 +61,31 @@ proxies:
       headers:
         Host: sg2-ctb.v2rayserv.com
     udp: true
+  - name: serverssh-sjhhjcxzjcgtuy
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 1ea14e28-3ba5-4e42-9f1e-70cb9f7f9462
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2grpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
+  - name: serverssh-fhfghcvrthy
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 0a56e296-6de5-4d55-b5c5-ed4ad5226cd9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgmgrpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
