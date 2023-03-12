@@ -1,15 +1,4 @@
 proxies:
-  - name: SG Trojan-gRPC(2023-03-13)
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 3e6ab1c0-bbde-11ed-a30d-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
   - name: SG Trojan AMP
     server: beacon.liveon.id
     port: 443
@@ -22,33 +11,6 @@ proxies:
       path: /howdy
       headers:
         Host: sg-2.test3.net
-    udp: true
-  - name: SG Trojan-gRPC(2023-03-12)
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 00154860-bb1c-11ed-8ba8-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
-  - name: jagoanssh-lkjiuyjgyyt
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: b80abd1a-ea8b-4bd4-be3b-32ae0b79f623
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg7-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: sg7-ray.ipservers.xyz
     udp: true
   - name: serverssh-skdjdksfhjkuy
     server: beacon.liveon.id
@@ -71,17 +33,6 @@ proxies:
     password: b5eabfe0-be6d-11ed-ac4b-1239d0255272
     skip-cert-verify: true
     sni: sg1.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
-  - name: SG3 Trojan-gRPC(2023-03-16)
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: cb0c0750-be6d-11ed-aec4-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
     network: grpc
     grpc-opts:
       grpc-service-name: trgrpc
