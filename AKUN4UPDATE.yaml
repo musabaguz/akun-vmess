@@ -67,4 +67,11 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-
+  - name: opentunnel.net-sdgytrgf
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: opentunnel.net-sdgytrgf
+    skip-cert-verify: true
+    sni: idt-1.opensvr.net
+    udp: true
