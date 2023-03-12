@@ -105,3 +105,19 @@ proxies:
       headers:
         Host: sg-3.0rd.net
     udp: true
+  - name: speedyssh.com-kjsdfhyui
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 4f73e7bb-6719-49a6-bcf2-36b94b4c04dd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray-sg01.bmqb.net
+    network: ws
+    ws-opts:
+      path: /speedyssh
+      headers:
+        Host: v2ray-sg01.bmqb.net
+    udp: true
