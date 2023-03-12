@@ -67,11 +67,19 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-  - name: opentunnel.net-sdgytrgf
+  - name: opentunnel.net-jhfyutgh
     server: beacon.liveon.id
     port: 443
-    type: trojan
-    password: opentunnel.net-sdgytrgf
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idt-1.opensvr.net
+    servername: idv-1.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-jhfyutgh
+      headers:
+        Host: idv-1.openv2ray.com
     udp: true
