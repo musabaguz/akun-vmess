@@ -67,19 +67,14 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-  - name: opentunnel.net-jhfyutgh
+  - name: SG OVH Trojan-gRPC(2023-03-19)
     server: beacon.liveon.id
     port: 443
-    type: vmess
-    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
-    alterId: 16
-    cipher: auto
-    tls: true
+    type: trojan
+    password: b0b2def0-c0a3-11ed-a49f-1239d0255272
     skip-cert-verify: true
-    servername: idv-1.openv2ray.com
-    network: ws
-    ws-opts:
-      path: /opentunnel?user=opentunnel.net-jhfyutgh
-      headers:
-        Host: idv-1.openv2ray.com
+    sni: sg1.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
     udp: true
