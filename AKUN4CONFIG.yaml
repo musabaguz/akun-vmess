@@ -1,0 +1,96 @@
+proxy-providers:
+  AKUN3UPDATE:
+    type: http
+    path: "./AKUN3UPDATE.yaml"
+    url: https://bit.ly/41UMthh
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 99
+  AKUN4UPDATE:
+    type: http
+    path: "./AKUN4UPDATE.yaml"
+    url: https://bit.ly/3F4cTDv
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 99
+      
+proxy-groups:
+- name: AKUN3UPDATE
+  type: select
+  disable-udp: false
+  use:
+  - AKUN3UPDATE
+  url: 'http://cp.cloudflare.com/generate_204'
+  interval: '300'
+- name: AKUN4UPDATE
+  type: select
+  disable-udp: false
+  use:
+  - AKUN4UPDATE
+  url: 'http://cp.cloudflare.com/generate_204'
+  interval: '300'
+  
+#------------++-----++--ETC--++----++-------------#
+- name: Fallback-Akun3
+  type: fallback
+  disable-udp: false
+  use:
+  - AKUN3UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+- name: Fallback-Akun4
+  type: fallback
+  disable-udp: false
+  use:
+  - AKUN4UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+- name: Fallback-ALL
+  type: fallback
+  disable-udp: false
+  use:
+  - AKUN3UPDATE
+  - AKUN4UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+#-------------------------------------------------#
+- name: Ping-Akun3
+  type: url-test
+  disable-udp: false
+  use:
+  - AKUN3UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+  tolerance: '99'
+- name: Ping-Akun4
+  type: url-test
+  disable-udp: false
+  use:
+  - AKUN4UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+  tolerance: '99'
+- name: Ping-ALL
+  type: url-test
+  disable-udp: false
+  use:
+  - AKUN3UPDATE
+  - AKUN4UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+  tolerance: '99'
+#-------------------------------------------------#
+- name: Loadbalance
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - AKUN3UPDATE
+  - AKUN4UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+#-------------------------------------------------#
