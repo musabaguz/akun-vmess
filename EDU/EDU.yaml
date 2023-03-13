@@ -2,7 +2,7 @@ proxy-providers:
   AKUN3UPDATE:
     type: http
     path: "./EDU1UPDATE.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/EDU/proxy_provider/EDU1UPDATE.yaml
     interval: 3600
     health-check:
       enable: true
@@ -11,7 +11,7 @@ proxy-providers:
   AKUN4UPDATE:
     type: http
     path: "./EDU2UPDATE.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/musabaguz/akun-vmess/main/EDU/proxy_provider/EDU2UPDATE.yaml
     interval: 3600
     health-check:
       enable: true
