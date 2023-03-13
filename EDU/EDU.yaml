@@ -1,0 +1,96 @@
+proxy-providers:
+  AKUN3UPDATE:
+    type: http
+    path: "./EDU1UPDATE.yaml"
+    url: 
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 99
+  AKUN4UPDATE:
+    type: http
+    path: "./EDU2UPDATE.yaml"
+    url: 
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 99
+      
+proxy-groups:
+- name: EDU1UPDATE
+  type: select
+  disable-udp: false
+  use:
+  - EDU1UPDATE
+  url: 'http://cp.cloudflare.com/generate_204'
+  interval: '300'
+- name: EDU2UPDATE
+  type: select
+  disable-udp: false
+  use:
+  - EDU2UPDATE
+  url: 'http://cp.cloudflare.com/generate_204'
+  interval: '300'
+  
+#------------++-----++--ETC--++----++-------------#
+- name: Fallback-Akun3
+  type: fallback
+  disable-udp: false
+  use:
+  - EDU1UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+- name: Fallback-Akun4
+  type: fallback
+  disable-udp: false
+  use:
+  - EDU2UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+- name: Fallback-ALL
+  type: fallback
+  disable-udp: false
+  use:
+  - EDU1UPDATE
+  - EDU2UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+#-------------------------------------------------#
+- name: Ping-Akun3
+  type: url-test
+  disable-udp: false
+  use:
+  - EDU1UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+  tolerance: '99'
+- name: Ping-Akun4
+  type: url-test
+  disable-udp: false
+  use:
+  - EDU2UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+  tolerance: '99'
+- name: Ping-ALL
+  type: url-test
+  disable-udp: false
+  use:
+  - EDU1UPDATE
+  - EDU2UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+  tolerance: '99'
+#-------------------------------------------------#
+- name: Loadbalance
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - EDU1UPDATE
+  - EDU2UPDATE
+  url: http://www.gstatic.com/generate_204
+  interval: '99'
+#-------------------------------------------------#
