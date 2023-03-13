@@ -1,0 +1,12 @@
+proxies:
+  - name: SG Trojan-gRPC(2023-03-20)
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: b696ca90-c178-11ed-a563-1239d0255272
+    skip-cert-verify: true
+    sni: sg1.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
