@@ -10,3 +10,17 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: serverssh-fhfghcvrthy
+    server: 172.67.73.39
+    port: 443
+    type: vmess
+    uuid: 0a56e296-6de5-4d55-b5c5-ed4ad5226cd9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgmgrpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
