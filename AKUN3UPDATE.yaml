@@ -62,3 +62,107 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: SG Trojan-gRPC(2023-03-21)
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: e8fbfb10-c20a-11ed-a334-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: SG Trojan AMP ID ATHA qis
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 2d712f10-c21f-11ed-a6c9-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG HE Trojan-gRPC(2023-03-21) qis
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 8e417ca0-c21f-11ed-be5e-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: SG OVH Trojan-gRPC(2023-03-21) qis
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: ac690510-c21f-11ed-8efb-1239d0255272
+    skip-cert-verify: true
+    sni: sg1.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: SG HE Trojan-gRPC(2023-03-21) micro
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 8e417ca0-c21f-11ed-be5e-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: ASIA Trojan-gRPC(2023-03-22)
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 9ca7a4a0-c327-11ed-b231-205c6d5f5d78
+    skip-cert-verify: true
+    sni: asia1.oceis.net
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: SG HE Trojan-gRPC(2023-03-22)
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: ebe69ce0-c32e-11ed-a2d5-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: SG OVH Trojan-gRPC(2023-03-22) 2
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: e2afb700-c32e-11ed-96e6-1239d0255272
+    skip-cert-verify: true
+    sni: sg1.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: serverssh-ghsdftty
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: a62f41b6-4d47-44ce-beb7-b5c15411927d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1grpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
