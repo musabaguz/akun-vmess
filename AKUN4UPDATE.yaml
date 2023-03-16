@@ -90,3 +90,17 @@ proxies:
       headers:
         Host: sg01-vmess.realssh.xyz
     udp: true
+  - name: netq_hjasdgy_2023-03-19
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: c70eac65-9764-4b1e-9ea8-117642850936
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ikd1.tunnel.systems
+    network: grpc
+    grpc-opts:
+      grpc-service-name: tunnelvmessgrpc
+    udp: true
