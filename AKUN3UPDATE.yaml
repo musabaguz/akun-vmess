@@ -78,3 +78,16 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
+  - name: sshocean-fghtrte
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 0d17330e-1b3a-464b-a9f6-50b2d87f08d9
+    skip-cert-verify: true
+    sni: sg1.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg1.xvless.xyz
+    udp: true
