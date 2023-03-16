@@ -1,15 +1,4 @@
 proxies:
-  - name: SG Trojan-gRPC(2023-03-13)
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 3e6ab1c0-bbde-11ed-a30d-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
   - name: SG Trojan AMP
     server: beacon.liveon.id
     port: 443
@@ -53,28 +42,51 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc
     udp: true
-  - name: serverssh-fhfghcvrthy
+  - name: sshmax-hsdgfty
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 0a56e296-6de5-4d55-b5c5-ed4ad5226cd9
+    uuid: b5c98171-e5f6-4d04-bc5f-8e86ad44e9b1
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgmgrpc.serverip.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
+    servername: sg1-v.sshmax.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-v.sshmax.xyz
     udp: true
-  - name: SG OVH Trojan-gRPC(2023-03-19)
+  - name: realssh id-jhtyuy
     server: beacon.liveon.id
     port: 443
-    type: trojan
-    password: b0b2def0-c0a3-11ed-a49f-1239d0255272
+    type: vmess
+    uuid: 118a3afa-4ce4-4c8f-9e96-1b7cbf38e5e2
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg1.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
+    servername: id01-vmess.realssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id01-vmess.realssh.xyz
+    udp: true
+  - name: realssh sg-jhkhuy
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 2379dfa8-9924-4897-9373-89b9cda8638d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg01-vmess.realssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg01-vmess.realssh.xyz
     udp: true
