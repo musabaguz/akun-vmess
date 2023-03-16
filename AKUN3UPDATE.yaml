@@ -67,17 +67,6 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
-  - name: sshocean-sjfgyut_Trojan_gRPC
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: ff9e2b3f-3e8b-4b93-be43-56de90aab876
-    skip-cert-verify: true
-    sni: sgt1.sshocean.net
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
-    udp: true
   - name: sshocean-fghtrte
     server: beacon.liveon.id
     port: 443
@@ -103,4 +92,17 @@ proxies:
       path: /websocket
       headers:
         Host: idt2.sshocean.net
+    udp: true
+  - name: sshocean-jakshyu_trojan-go_ws
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: c61daf97-dfaa-4e1b-a1b2-1817772a31c5
+    skip-cert-verify: true
+    sni: sgt2.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgt2.sshocean.net
     udp: true
