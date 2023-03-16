@@ -91,3 +91,16 @@ proxies:
       headers:
         Host: sg1.xvless.xyz
     udp: true
+  - name: sshocean-sfdjty_trojan-go_ws
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: b8afcd37-2531-424c-91c6-e2d9e268b435
+    skip-cert-verify: true
+    sni: idt2.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: idt2.sshocean.net
+    udp: true
