@@ -1,15 +1,4 @@
 proxies:
-  - name: SG Trojan-gRPC(2023-03-19)
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: c2867700-c06b-11ed-be1d-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
   - name: SG Trojan-gRPC(2023-03-21)
     server: beacon.liveon.id
     port: 443
@@ -80,29 +69,14 @@ proxies:
       headers:
         Host: sg1.xvless.xyz
     udp: true
-  - name: sshocean-sfdjty_trojan-go_ws
+  - name: netq_jksfh_2023-03-24
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: b8afcd37-2531-424c-91c6-e2d9e268b435
+    password: netq_jksfh
     skip-cert-verify: true
-    sni: idt2.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: idt2.sshocean.net
-    udp: true
-  - name: sshocean-jakshyu_trojan-go_ws
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: c61daf97-dfaa-4e1b-a1b2-1817772a31c5
-    skip-cert-verify: true
-    sni: sgt2.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt2.sshocean.net
+    sni: sgdo1.tunnel.systems
+    network: grpc
+    grpc-opts:
+      grpc-service-name: tunneltrojangrpc
     udp: true
