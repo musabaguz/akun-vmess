@@ -1,6 +1,6 @@
 proxies:
   - name: SG-HE MUX Trojan VPN
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: f05ad4a0-c460-11ed-96a3-1239d0255272
@@ -13,7 +13,7 @@ proxies:
         Host: sg6-trojan.bonds.id
     udp: true
   - name: SG-HE 2 Trojan VPN
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: f582e6e0-c460-11ed-891e-1239d0255272
@@ -26,7 +26,7 @@ proxies:
         Host: sg2-trojan.bonds.id
     udp: true
   - name: SG-HE 3 Trojan VPN
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: fa477fa0-c460-11ed-84df-1239d0255272
@@ -39,7 +39,7 @@ proxies:
         Host: sg3-trojan.bonds.id
     udp: true
   - name: SG-HE 1 Trojan VPN
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 00d7ff90-c461-11ed-9dfb-1239d0255272
@@ -52,7 +52,7 @@ proxies:
         Host: sg1-trojan.bonds.id
     udp: true
   - name: SG Trojan OVH
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 061e35d0-c461-11ed-912a-1239d0255272
@@ -65,7 +65,7 @@ proxies:
         Host: sg-3.test3.net
     udp: true
   - name: ID Herza Trojan
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 0bcdfb30-c461-11ed-b1ac-1239d0255272
@@ -78,7 +78,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
   - name: ID Herza Trojan 2
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 10ee4b50-c461-11ed-89c4-1239d0255272
@@ -91,7 +91,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
   - name: SG Trojan AMP
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 1a6f1f80-c461-11ed-9b5e-1239d0255272
