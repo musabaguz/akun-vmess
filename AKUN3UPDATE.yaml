@@ -97,3 +97,16 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
+  - name: sshocean-sdjyui
+    server: 104.21.8.121
+    port: 443
+    type: trojan
+    password: b94bf02f-25fa-460b-813d-0c05705e4edb
+    skip-cert-verify: true
+    sni: sg2.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg2.xvless.xyz
+    udp: true
