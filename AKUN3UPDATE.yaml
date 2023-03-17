@@ -1,6 +1,6 @@
 proxies:
   - name: SG Trojan-gRPC(2023-03-21)
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: e8fbfb10-c20a-11ed-a334-1239d0255272
@@ -11,7 +11,7 @@ proxies:
       grpc-service-name: trgrpc
     udp: true
   - name: SG Trojan AMP ID ATHA
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 2d712f10-c21f-11ed-a6c9-1239d0255272
@@ -24,7 +24,7 @@ proxies:
         Host: sg-2.test3.net
     udp: true
   - name: SG HE Trojan-gRPC(2023-03-22)
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: ebe69ce0-c32e-11ed-a2d5-1239d0255272
@@ -35,7 +35,7 @@ proxies:
       grpc-service-name: trgrpc
     udp: true
   - name: sshocean-fghtrte
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 0d17330e-1b3a-464b-a9f6-50b2d87f08d9
@@ -48,7 +48,7 @@ proxies:
         Host: sg1.xvless.xyz
     udp: true
   - name: netq_jksfh_2023-03-24
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: netq_jksfh
@@ -59,7 +59,7 @@ proxies:
       grpc-service-name: tunneltrojangrpc
     udp: true
   - name: SG Trojan AMP
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: f48b49a0-b8cc-11ed-88db-1239d0255272
@@ -72,7 +72,7 @@ proxies:
         Host: sg-2.test3.net
     udp: true
   - name: sshmax-hsdgfty
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: vmess
     uuid: b5c98171-e5f6-4d04-bc5f-8e86ad44e9b1
@@ -88,7 +88,7 @@ proxies:
         Host: sg1-v.sshmax.xyz
     udp: true
   - name: netq_hjasdgy_2023-03-19
-    server: beacon.liveon.id
+    server: 104.21.8.121
     port: 443
     type: vmess
     uuid: c70eac65-9764-4b1e-9ea8-117642850936
