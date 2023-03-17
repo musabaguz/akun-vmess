@@ -1,9 +1,100 @@
 proxies:
+  - name: SG-HE MUX Trojan VPN
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: f05ad4a0-c460-11ed-96a3-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
+  - name: SG-HE 2 Trojan VPN
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: f582e6e0-c460-11ed-891e-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: SG-HE 3 Trojan VPN
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: fa477fa0-c460-11ed-84df-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG-HE 1 Trojan VPN
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 00d7ff90-c461-11ed-9dfb-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG Trojan OVH
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 061e35d0-c461-11ed-912a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-3.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-3.test3.net
+    udp: true
+  - name: ID Herza Trojan
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 0bcdfb30-c461-11ed-b1ac-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID Herza Trojan 2
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 10ee4b50-c461-11ed-89c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
   - name: SG Trojan AMP
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: f48b49a0-b8cc-11ed-88db-1239d0255272
+    password: 1a6f1f80-c461-11ed-9b5e-1239d0255272
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -11,96 +102,4 @@ proxies:
       path: /howdy
       headers:
         Host: sg-2.test3.net
-    udp: true
-  - name: sshocean-ksjdfhyui
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 3580bde6-ce2c-401c-866e-d6eb2a343546
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2-ctb.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2-ctb.v2rayserv.com
-    udp: true
-  - name: serverssh-sjhhjcxzjcgtuy
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 1ea14e28-3ba5-4e42-9f1e-70cb9f7f9462
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2grpc.serverip.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
-    udp: true
-  - name: sshmax-hsdgfty
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: b5c98171-e5f6-4d04-bc5f-8e86ad44e9b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-v.sshmax.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1-v.sshmax.xyz
-    udp: true
-  - name: realssh id-jhtyuy
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 118a3afa-4ce4-4c8f-9e96-1b7cbf38e5e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id01-vmess.realssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id01-vmess.realssh.xyz
-    udp: true
-  - name: realssh sg-jhkhuy
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 2379dfa8-9924-4897-9373-89b9cda8638d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg01-vmess.realssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg01-vmess.realssh.xyz
-    udp: true
-  - name: netq_hjasdgy_2023-03-19
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: c70eac65-9764-4b1e-9ea8-117642850936
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ikd1.tunnel.systems
-    network: grpc
-    grpc-opts:
-      grpc-service-name: tunnelvmessgrpc
     udp: true
