@@ -10,7 +10,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
-  - name: SG Trojan AMP ID ATHA qis
+  - name: SG Trojan AMP ID ATHA
     server: beacon.liveon.id
     port: 443
     type: trojan
@@ -22,28 +22,6 @@ proxies:
       path: /howdy
       headers:
         Host: sg-2.test3.net
-    udp: true
-  - name: SG HE Trojan-gRPC(2023-03-21) qis
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 8e417ca0-c21f-11ed-be5e-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
-    udp: true
-  - name: SG HE Trojan-gRPC(2023-03-21) micro
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 8e417ca0-c21f-11ed-be5e-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trgrpc
     udp: true
   - name: SG HE Trojan-gRPC(2023-03-22)
     server: beacon.liveon.id
@@ -79,4 +57,77 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: tunneltrojangrpc
+    udp: true
+  - name: SG Trojan AMP
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: f48b49a0-b8cc-11ed-88db-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: sshocean-ksjdfhyui
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 3580bde6-ce2c-401c-866e-d6eb2a343546
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ctb.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2-ctb.v2rayserv.com
+    udp: true
+  - name: serverssh-sjhhjcxzjcgtuy
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 1ea14e28-3ba5-4e42-9f1e-70cb9f7f9462
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2grpc.serverip.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
+  - name: sshmax-hsdgfty
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: b5c98171-e5f6-4d04-bc5f-8e86ad44e9b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-v.sshmax.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-v.sshmax.xyz
+    udp: true
+  - name: netq_hjasdgy_2023-03-19
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: c70eac65-9764-4b1e-9ea8-117642850936
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ikd1.tunnel.systems
+    network: grpc
+    grpc-opts:
+      grpc-service-name: tunnelvmessgrpc
     udp: true
