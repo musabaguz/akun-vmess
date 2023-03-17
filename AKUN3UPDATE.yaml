@@ -10,19 +10,6 @@ proxies:
     grpc-opts:
       grpc-service-name: trgrpc
     udp: true
-  - name: SG Trojan AMP ID ATHA
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 2d712f10-c21f-11ed-a6c9-1239d0255272
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
   - name: SG HE Trojan-gRPC(2023-03-22)
     server: 104.21.8.121
     port: 443
@@ -58,19 +45,6 @@ proxies:
     grpc-opts:
       grpc-service-name: tunneltrojangrpc
     udp: true
-  - name: SG Trojan AMP
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: f48b49a0-b8cc-11ed-88db-1239d0255272
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
   - name: sshmax-hsdgfty
     server: 104.21.8.121
     port: 443
@@ -100,4 +74,26 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: tunnelvmessgrpc
+    udp: true
+  - name: SG Trojan-gRPC(2023-03-24)
+    server: 104.21.8.121
+    port: 443
+    type: trojan
+    password: d54dca20-c470-11ed-9b41-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: SG Trojan-gRPC(2023-03-24) 2
+    server: 104.21.8.121
+    port: 443
+    type: trojan
+    password: d2b2c730-c470-11ed-9648-1239d0255272
+    skip-cert-verify: true
+    sni: sg1.socifiles.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
     udp: true
