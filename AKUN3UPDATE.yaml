@@ -71,36 +71,6 @@ proxies:
       headers:
         Host: sg-2.test3.net
     udp: true
-  - name: sshocean-ksjdfhyui
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 3580bde6-ce2c-401c-866e-d6eb2a343546
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2-ctb.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2-ctb.v2rayserv.com
-    udp: true
-  - name: serverssh-sjhhjcxzjcgtuy
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 1ea14e28-3ba5-4e42-9f1e-70cb9f7f9462
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2grpc.serverip.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
-    udp: true
   - name: sshmax-hsdgfty
     server: beacon.liveon.id
     port: 443
