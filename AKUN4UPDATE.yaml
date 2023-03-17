@@ -103,3 +103,29 @@ proxies:
       headers:
         Host: sg-2.test3.net
     udp: true
+  - name: SG Trojan AMP ID ATHA
+    server: 104.21.8.121
+    port: 443
+    type: trojan
+    password: 2d712f10-c21f-11ed-a6c9-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG Trojan AMP 2
+    server: 104.21.8.121
+    port: 443
+    type: trojan
+    password: f48b49a0-b8cc-11ed-88db-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
